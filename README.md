@@ -65,7 +65,7 @@ Extra stuff:
 - by default, VMs are deployed with `UbuntuServer 18.04-LTS` and VM flavor `Standard_B1s`
 - if you declare a VM multiple times in `additional_vm_image_indices`, it will take only the last one, for example, VM-1 is present twice, in `OpenLogic` and in `RedHat`, but it will be deployed with `RedHat` image
 - if you declare a VM multiple times in `additional_vm_flavor_indices`, it will take only the last one, for example, VM-2 is present twice, in `Standard_B2s` and in `Standard_D2s_v3`, but it will be deployed with `Standard_D2s_v3` flavor
-- if you declare a VM that is out of the indices in `additional_vm_image_indices` or `additional_vm_flavor_indices`, it will be ignored (ex, VMs 6, 7, 8, 9, 10, 14 )
+- if you declare a VM that is out of the range in `additional_vm_image_indices` or `additional_vm_flavor_indices`, it will be ignored (ex, VMs 6, 7, 8, 9, 10, 14 )
 
 
 # Output Aggregation
